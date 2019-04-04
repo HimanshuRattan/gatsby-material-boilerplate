@@ -6,8 +6,8 @@ import TrumpImage from "../images/dtrump.png"
 import "../style/index.css"
 const IndexPage = () => (
   <React.Fragment>
-    <div class="rotate-div">
-      <img class="rotate-infinite" src={TrumpImage} />
+    <div className="rotate-div">
+      <img className="rotate-infinite" src={TrumpImage} />
       <br />
       <br />
       <CircularProgress color="primary" />
