@@ -26,8 +26,9 @@ const IndexPage = () => (
   label="First Name"
   placeholder="First Name"
   margin="normal"
-/><br/>
+/>
   <TextField
+  className="second"
   id="standard-with-placeholder"
   label="Last Name"
   placeholder="Last Name"
@@ -40,12 +41,9 @@ const IndexPage = () => (
   placeholder="Registration Number"
   margin="normal"
 /><br/>
-<Button variant="outlined" size="medium" color="primary">
-          Medium
-        </Button>
-<Button size="medium" variant="contained" color="primary">
-        Submit
-      </Button>
+<Button size="medium" variant="contained" color="primary" className="sub-but">
+    Submit
+</Button>
 </div>
 
 

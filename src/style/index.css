@@ -3,3 +3,22 @@
   margin: 10px;
   padding: 30px;
 }
+
+#standard-with-placeholder{
+  font-size: 12px;
+  width: 400px;
+}
+.index-form Button {
+  font-size: 10px;
+  padding: 4px;
+
+}
+.sub-but{
+  font-size: 10px;
+  padding: 4px;
+
+}
+.index-form{
+  background-color: yellow;
+  padding: 20px;
+}
